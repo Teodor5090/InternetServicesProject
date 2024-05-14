@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "y4ii5MGouEPnSyTXLCrvOZGo/jrUN+4uz7NtyOx8k4+y4egVHFXwsy9DC0xy6DRSGItn0sBF/M5J3HRSYEYbqg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Application\\Store.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Teo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\Teo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.1\\microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "C:\\Users\\Teo\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teo\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Teo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

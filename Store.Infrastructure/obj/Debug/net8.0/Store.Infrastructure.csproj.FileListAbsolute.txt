@@ -1,0 +1,5 @@
+C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Infrastructure\obj\Debug\net8.0\Store.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Infrastructure\obj\Debug\net8.0\Store.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Infrastructure\obj\Debug\net8.0\Store.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Infrastructure\obj\Debug\net8.0\Store.Infrastructure.AssemblyInfo.cs
+C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Infrastructure\obj\Debug\net8.0\Store.Infrastructure.csproj.CoreCompileInputs.cache
