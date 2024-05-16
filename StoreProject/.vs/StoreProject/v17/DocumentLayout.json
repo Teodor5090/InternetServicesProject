@@ -1,53 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\",
+  "WorkspaceRootPath": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\dtos\\purchaserequestsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:dtos\\purchaserequestsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\interfaces\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:interfaces\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\migrations\\20240514230904_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:migrations\\20240514230904_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:entities\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C45773-4C1C-4DCB-B86B-AD63B68984C3}|..\\Store.Tests\\Store.Tests.csproj|c:\\users\\teo\\desktop\\internet services project test\\store.tests\\integrationtests\\integrationtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\dtos\\purchaserequestsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:dtos\\purchaserequestsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\interfaces\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:interfaces\\idiscountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:services\\discountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:controllers\\discountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\migrations\\20240514230904_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:migrations\\20240514230904_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_0RUC97T_TEOOSQL/StoreContext/sa/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -56,71 +53,74 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/DESKTOP_0RUC97T_TEOOSQL/StoreContext/sa/SqlTable/dbo.Categories.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\data\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\data\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:data\\storedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\interfaces\\icategortyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\interfaces\\icategortyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:interfaces\\icategortyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\store.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\store.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:store.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C45773-4C1C-4DCB-B86B-AD63B68984C3}|..\\Store.Tests\\Store.Tests.csproj|c:\\users\\teo\\desktop\\internet services project test\\store.tests\\unittests\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C45773-4C1C-4DCB-B86B-AD63B68984C3}|..\\Store.Tests\\Store.Tests.csproj|c:\\users\\teo\\desktop\\internet services project test\\store.tests\\unittests\\categoryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C45773-4C1C-4DCB-B86B-AD63B68984C3}|..\\Store.Tests\\Store.Tests.csproj|c:\\users\\teo\\desktop\\internet services project test\\store.tests\\unittests\\categoriescontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{80C45773-4C1C-4DCB-B86B-AD63B68984C3}|..\\Store.Tests\\Store.Tests.csproj|c:\\users\\teo\\desktop\\internet services project test\\store.tests\\unittests\\productscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{80C45773-4C1C-4DCB-B86B-AD63B68984C3}|..\\Store.Tests\\Store.Tests.csproj|c:\\users\\teo\\desktop\\internet services project test\\store.tests\\store.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\internet services project test\\storeproject\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|c:\\users\\teo\\desktop\\togit\\internetservicesproject\\storeproject\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8324F38F-1167-4F3E-BB34-2B62B6B1AEB6}|Store.API.csproj|solutionrelative:dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\IntegrationTests\\IntegrationTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoriesControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoryServiceTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductsControllerTests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\Store.Tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -135,45 +135,30 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DiscountController.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Controllers\\DiscountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\DiscountController.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Controllers\\DiscountController.cs",
-              "RelativeToolTip": "Controllers\\DiscountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Title": "DiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Services\\DiscountService.cs",
+              "RelativeDocumentMoniker": "Services\\DiscountService.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Services\\DiscountService.cs",
+              "RelativeToolTip": "Services\\DiscountService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:29:57.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T23:29:31.811Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "DiscountService.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Services\\DiscountService.cs",
-              "RelativeDocumentMoniker": "Services\\DiscountService.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Services\\DiscountService.cs",
-              "RelativeToolTip": "Services\\DiscountService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:29:31.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "IDiscountService.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\IDiscountService.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\IDiscountService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IDiscountService.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\IDiscountService.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\IDiscountService.cs",
               "RelativeToolTip": "Interfaces\\IDiscountService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:29:09.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T23:29:09.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "dbo.Products [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_0RUC97T_TEOOSQL/StoreContext/sa/SqlTable/dbo.Products.sql",
               "ToolTip": "dbo.Products [Data]",
@@ -182,24 +167,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:33:44.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T22:33:44.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 23,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\ICategoryRepository.cs",
               "RelativeToolTip": "Interfaces\\ICategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -207,24 +191,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Entities\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Entities\\Category.cs",
               "RelativeToolTip": "Entities\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:28:18.179Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-14T22:28:18.179Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductCategory.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Entities\\ProductCategory.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Entities\\ProductCategory.cs",
               "RelativeDocumentMoniker": "Entities\\ProductCategory.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Entities\\ProductCategory.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Entities\\ProductCategory.cs",
               "RelativeToolTip": "Entities\\ProductCategory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -233,50 +216,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PurchaseRequestsDto.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\DTOs\\PurchaseRequestsDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\PurchaseRequestsDto.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\DTOs\\PurchaseRequestsDto.cs",
-              "RelativeToolTip": "DTOs\\PurchaseRequestsDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T23:30:16.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\DTOs\\ProductDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\DTOs\\ProductDto.cs",
-              "RelativeToolTip": "DTOs\\ProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:28:13.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Entities\\Product.cs",
-              "RelativeToolTip": "Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-14T22:28:22.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Program.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -285,12 +229,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
+              "Title": "DiscountController.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Controllers\\DiscountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DiscountController.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Controllers\\DiscountController.cs",
+              "RelativeToolTip": "Controllers\\DiscountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T23:29:57.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PurchaseRequestsDto.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\DTOs\\PurchaseRequestsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\PurchaseRequestsDto.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\DTOs\\PurchaseRequestsDto.cs",
+              "RelativeToolTip": "DTOs\\PurchaseRequestsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T23:30:16.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\DTOs\\ProductDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\DTOs\\ProductDto.cs",
+              "RelativeToolTip": "DTOs\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:28:13.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T22:28:22.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "IntegrationTests.cs",
               "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\IntegrationTests\\IntegrationTests.cs",
-              "RelativeDocumentMoniker": "..\\Store.Tests\\IntegrationTests\\IntegrationTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\IntegrationTests\\IntegrationTests.cs",
               "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\IntegrationTests\\IntegrationTests.cs",
-              "RelativeToolTip": "..\\Store.Tests\\IntegrationTests\\IntegrationTests.cs",
+              "RelativeToolTip": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\IntegrationTests\\IntegrationTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T22:40:01.068Z"
@@ -299,9 +291,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "20240514230904_initial.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Migrations\\20240514230904_initial.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Migrations\\20240514230904_initial.cs",
               "RelativeDocumentMoniker": "Migrations\\20240514230904_initial.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Migrations\\20240514230904_initial.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Migrations\\20240514230904_initial.cs",
               "RelativeToolTip": "Migrations\\20240514230904_initial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -309,11 +301,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "ICategortyService.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\ICategortyService.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\ICategortyService.cs",
               "RelativeDocumentMoniker": "Interfaces\\ICategortyService.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\ICategortyService.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\ICategortyService.cs",
               "RelativeToolTip": "Interfaces\\ICategortyService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -321,11 +313,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -333,7 +325,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "dbo.Categories [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/DESKTOP_0RUC97T_TEOOSQL/StoreContext/sa/SqlTable/dbo.Categories.sql",
               "ToolTip": "dbo.Categories [Data]",
@@ -342,11 +334,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 22,
               "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Interfaces\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\IProductRepository.cs",
               "RelativeToolTip": "Interfaces\\IProductRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -354,11 +346,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Controllers\\ProductsController.cs",
               "ViewState": "AQIAABoAAAAAAAAAAAAwwEcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -366,11 +358,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Interfaces\\IProductService.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Interfaces\\IProductService.cs",
               "RelativeToolTip": "Interfaces\\IProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -378,11 +370,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "CategoryService.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Services\\CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Services\\CategoryService.cs",
               "RelativeDocumentMoniker": "Services\\CategoryService.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Services\\CategoryService.cs",
               "RelativeToolTip": "Services\\CategoryService.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAIwEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -390,11 +382,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "DependencyInjection.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\DependencyInjection.cs",
               "RelativeToolTip": "DependencyInjection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -402,23 +394,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "CategoriesControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoriesControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Store.Tests\\UnitTests\\CategoriesControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoriesControllerTests.cs",
               "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoriesControllerTests.cs",
-              "RelativeToolTip": "..\\Store.Tests\\UnitTests\\CategoriesControllerTests.cs",
+              "RelativeToolTip": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoriesControllerTests.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T22:39:43.141Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "StoreDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Data\\StoreDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Data\\StoreDbContext.cs",
               "RelativeDocumentMoniker": "Data\\StoreDbContext.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Data\\StoreDbContext.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Data\\StoreDbContext.cs",
               "RelativeToolTip": "Data\\StoreDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -426,11 +418,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 19,
               "Title": "Store.API.csproj",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Store.API.csproj",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Store.API.csproj",
               "RelativeDocumentMoniker": "Store.API.csproj",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Store.API.csproj",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Store.API.csproj",
               "RelativeToolTip": "Store.API.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -438,11 +430,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 20,
               "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Services\\ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Services\\ProductService.cs",
               "RelativeToolTip": "Services\\ProductService.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -450,59 +442,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "ProductServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\Store.Tests\\UnitTests\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductServiceTests.cs",
               "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductServiceTests.cs",
-              "RelativeToolTip": "..\\Store.Tests\\UnitTests\\ProductServiceTests.cs",
+              "RelativeToolTip": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductServiceTests.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAABgAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T22:39:35.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "CategoryServiceTests.cs",
               "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoryServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\Store.Tests\\UnitTests\\CategoryServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoryServiceTests.cs",
               "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoryServiceTests.cs",
-              "RelativeToolTip": "..\\Store.Tests\\UnitTests\\CategoryServiceTests.cs",
+              "RelativeToolTip": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\UnitTests\\CategoryServiceTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T22:39:22.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "ProductsControllerTests.cs",
               "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductsControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Store.Tests\\UnitTests\\ProductsControllerTests.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductsControllerTests.cs",
               "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductsControllerTests.cs",
-              "RelativeToolTip": "..\\Store.Tests\\UnitTests\\ProductsControllerTests.cs",
+              "RelativeToolTip": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\UnitTests\\ProductsControllerTests.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-14T22:39:52.926Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "Store.Tests.csproj",
               "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\Store.Tests.csproj",
-              "RelativeDocumentMoniker": "..\\Store.Tests\\Store.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\Store.Tests.csproj",
               "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\Store.Tests\\Store.Tests.csproj",
-              "RelativeToolTip": "..\\Store.Tests\\Store.Tests.csproj",
+              "RelativeToolTip": "..\\..\\..\\Internet Services Project TEST\\Store.Tests\\Store.Tests.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-05-14T22:35:54.326Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 24,
               "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\AutoMapperProfile.cs",
               "RelativeDocumentMoniker": "AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\AutoMapperProfile.cs",
               "RelativeToolTip": "AutoMapperProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -510,11 +502,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 25,
               "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\DTOs\\CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\DTOs\\CategoryDto.cs",
               "RelativeDocumentMoniker": "DTOs\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\DTOs\\CategoryDto.cs",
               "RelativeToolTip": "DTOs\\CategoryDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

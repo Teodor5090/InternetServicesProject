@@ -10698,11 +10698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Store.API.csproj",
+      "projectUniqueName": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Store.API.csproj",
       "projectName": "Store.API",
-      "projectPath": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Store.API.csproj",
+      "projectPath": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Store.API.csproj",
       "packagesPath": "C:\\Users\\Teo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\obj\\",
+      "outputPath": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Teo\\AppData\\Roaming\\NuGet\\NuGet.Config",

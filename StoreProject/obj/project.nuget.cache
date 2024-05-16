@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F3A3afzf3kaPqD6uCsZ8YbVM1rRL5pAC4+TUsPCj0NEUP7NkTHgZ/4dz+AIH4TukSIiyBvbOna1+8T7s0ZGF6w==",
+  "dgSpecHash": "tnG0Mh7XYxZBuTD0EOvhmgwo7kYri0eYnC6UQlMS5wOC12woIWH6LNkk1FOBsOGW0qfRyIAMvnYqGK574442hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Teo\\Desktop\\Internet Services Project TEST\\StoreProject\\Store.API.csproj",
+  "projectFilePath": "C:\\Users\\Teo\\Desktop\\ToGit\\InternetServicesProject\\StoreProject\\Store.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Teo\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Teo\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

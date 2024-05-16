@@ -1,5 +1,0 @@
-C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Application\obj\Debug\net8.0\Store.Application.csproj.AssemblyReference.cache
-C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Application\obj\Debug\net8.0\Store.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Application\obj\Debug\net8.0\Store.Application.AssemblyInfoInputs.cache
-C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Application\obj\Debug\net8.0\Store.Application.AssemblyInfo.cs
-C:\Users\Teo\Desktop\Internet Services Project TEST\Store.Application\obj\Debug\net8.0\Store.Application.csproj.CoreCompileInputs.cache
