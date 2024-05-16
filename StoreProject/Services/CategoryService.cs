@@ -4,29 +4,21 @@ using Store.API.Data;
 using Store.API.DTOs;
 using Store.API.Entities;
 using Store.API.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Store.API.Services
 {
-    // CategoryService.cs
     public class CategoryService : ICategoryService
     {
         private readonly StoreDbContext _context;
         private readonly IMapper _mapper;
-        private ICategoryRepository object1;
-        private IMapper object2;
 
         public CategoryService(StoreDbContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
-
-    
 
         public async Task<List<CategoryDto>> GetAllCategoriesAsync()
         {
@@ -68,5 +60,4 @@ namespace Store.API.Services
             }
         }
     }
-
 }

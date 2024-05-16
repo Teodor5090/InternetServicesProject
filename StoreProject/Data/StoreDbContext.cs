@@ -18,7 +18,6 @@ namespace Store.API.Data
             modelBuilder.Entity<Category>().HasKey(c => c.Id);
             modelBuilder.Entity<Product>().HasKey(p => p.Id);
 
-            // Configure the many-to-many relationship
             modelBuilder.Entity<ProductCategory>()
                 .HasKey(pc => new { pc.ProductId, pc.CategoryId });
 

@@ -1,5 +1,4 @@
-﻿// ICategoryRepository.cs
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Store.API.Entities;
 

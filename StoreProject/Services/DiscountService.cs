@@ -20,41 +20,38 @@ namespace Store.API.Services
 
         public async Task<decimal> CalculateDiscountAsync(List<int> productIds)
         {
-            // Retrieve products from the database based on the provided product IDs
+          
             var products = await _context.Products
                 .Include(p => p.ProductCategories).ThenInclude(pc => pc.Category)
-                .Where(p => productIds.Contains(p.Id))
+                .Where(p => productIds.Distinct().Contains(p.Id))
                 .ToListAsync();
 
-            // Validate if all product IDs are valid and in stock
             ValidateProductIds(productIds, products);
 
-            // Calculate and return the discount
-            return CalculateDiscount(products);
+            return CalculateDiscount(products, productIds);
         }
 
         private void ValidateProductIds(List<int> productIds, List<Product> products)
         {
-            // Check if the number of retrieved products matches the number of provided product IDs
-            if (products.Count != productIds.Count)
+      
+            if (products.Count != productIds.Distinct().Count())
             {
                 throw new InvalidProductException("Invalid product IDs or insufficient stock.");
             }
         }
 
-        private decimal CalculateDiscount(List<Product> products)
+        private decimal CalculateDiscount(List<Product> products, List<int> productIds)
         {
             decimal totalDiscount = 0;
-            var groupedByCategory = products.SelectMany(p => p.ProductCategories)
-                .GroupBy(pc => pc.CategoryId);
 
-            foreach (var group in groupedByCategory)
+            var productCount = productIds.GroupBy(id => id)
+                                         .ToDictionary(g => g.Key, g => g.Count());
+
+            foreach (var product in products)
             {
-                if (group.Count() > 1)
+                if (productCount[product.Id] > 1)
                 {
-                    // Apply discount for products of the same category
-                    var product = group.First().Product;
-                    totalDiscount += product.Price * 0.05m;
+                    totalDiscount += product.Price * 0.05m * productCount[product.Id];
                 }
             }
 

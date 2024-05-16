@@ -329,3 +329,4 @@ C:\Users\Teo\Desktop\ToGit\InternetServicesProject\Store.Tests\obj\Debug\net8.0\
 C:\Users\Teo\Desktop\ToGit\InternetServicesProject\Store.Tests\obj\Debug\net8.0\Store.Tests.pdb
 C:\Users\Teo\Desktop\ToGit\InternetServicesProject\Store.Tests\obj\Debug\net8.0\Store.Tests.genruntimeconfig.cache
 C:\Users\Teo\Desktop\ToGit\InternetServicesProject\Store.Tests\obj\Debug\net8.0\ref\Store.Tests.dll
+C:\Users\Teo\Desktop\ToGit\InternetServicesProject\Store.Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

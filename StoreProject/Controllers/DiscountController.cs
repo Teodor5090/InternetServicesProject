@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Store.API.Interfaces;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Store.API.Controllers
@@ -16,11 +17,11 @@ namespace Store.API.Controllers
         }
 
         [HttpPost("calculate")]
-        public async Task<ActionResult<decimal>> CalculateDiscount(PurchaseRequestDto purchaseRequest)
+        public async Task<ActionResult<decimal>> CalculateDiscount([FromBody] List<int> productIds)
         {
             try
             {
-                decimal discount = await _discountService.CalculateDiscountAsync(purchaseRequest.ProductIds);
+                decimal discount = await _discountService.CalculateDiscountAsync(productIds);
                 return Ok(discount);
             }
             catch (InvalidProductException ex)

@@ -1,11 +1,10 @@
 ﻿using AutoMapper;
-using Moq;
+using Microsoft.EntityFrameworkCore;
 using Store.API.Data;
 using Store.API.DTOs;
 using Store.API.Entities;
 using Store.API.Interfaces;
 using Store.API.Services;
-using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Xunit;
@@ -14,35 +13,49 @@ namespace Store.Tests.UnitTests
 {
     public class CategoryServiceTests
     {
+        private readonly IMapper _mapper;
+
+        public CategoryServiceTests()
+        {
+            var config = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<Category, CategoryDto>();
+                cfg.CreateMap<CategoryDto, Category>();
+            });
+            _mapper = config.CreateMapper();
+        }
+
         [Fact]
         public async Task GetAllCategoriesAsync_Returns_Categories()
         {
             // Arrange
-            var categories = new List<Category>
+            var options = new DbContextOptionsBuilder<StoreDbContext>()
+                .UseInMemoryDatabase(databaseName: "StoreDb")
+                .Options;
+
+            using (var context = new StoreDbContext(options))
             {
-                new Category { Id = 1, Name = "Category 1" },
-                new Category { Id = 2, Name = "Category 2" }
-            };
+                context.Categories.AddRange(new List<Category>
+                {
+                    new Category { Id = 1, Name = "Category 1" },
+                    new Category { Id = 2, Name = "Category 2" }
+                });
+                context.SaveChanges();
+            }
 
-            var mockDbSet = new Mock<DbSet<Category>>();
-            mockDbSet.Setup(m => m.FindAsync(It.IsAny<object[]>()))
-                     .ReturnsAsync((object[] ids) => categories.Find(c => c.Id == (int)ids[0]));
+            using (var context = new StoreDbContext(options))
+            {
+                var service = new CategoryService(context, _mapper);
 
-            var mockDbContext = new Mock<StoreDbContext>();
-            mockDbContext.Setup(m => m.Categories).Returns(mockDbSet.Object);
+                // Act
+                var result = await service.GetAllCategoriesAsync();
 
-            var mockMapper = new Mock<IMapper>();
-            mockMapper.Setup(m => m.Map<List<CategoryDto>>(It.IsAny<List<Category>>()))
-                      .Returns((List<Category> source) => source.ConvertAll(c => new CategoryDto { Id = c.Id, Name = c.Name }));
-
-            var service = new CategoryService(mockDbContext.Object, mockMapper.Object);
-
-            // Act
-            var result = await service.GetAllCategoriesAsync();
-
-            // Assert
-            Assert.NotNull(result);
-            Assert.Equal(categories.Count, result.Count);
+                // Assert
+                Assert.NotNull(result);
+                Assert.Equal(2, result.Count);
+                Assert.Equal("Category 1", result[0].Name);
+                Assert.Equal("Category 2", result[1].Name);
+            }
         }
     }
 }

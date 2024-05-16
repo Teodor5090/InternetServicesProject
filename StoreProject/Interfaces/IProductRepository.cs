@@ -1,8 +1,6 @@
-﻿// IProductRepository.cs
+﻿using Store.API.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Store.API.Entities;
-
 
 namespace Store.API.Interfaces
 {
@@ -13,5 +11,7 @@ namespace Store.API.Interfaces
         Task<Product> CreateProductAsync(Product product);
         Task UpdateProductAsync(Product product);
         Task DeleteProductAsync(int id);
+        Task ImportStockAsync(List<Product> products);
+        Task<List<Product>> GetProductsByIdsAsync(List<int> productIds);
     }
 }

@@ -1,4 +1,9 @@
-﻿public class PurchaseRequestDto
+﻿using System.Collections.Generic;
+
+namespace Store.API.DTOs
 {
-    public List<int> ProductIds { get; set; }
+    public class PurchaseRequestDto
+    {
+        public List<int> ProductIds { get; set; }
+    }
 }

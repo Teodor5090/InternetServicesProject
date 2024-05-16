@@ -5,6 +5,7 @@ using Store.API.Data;
 using Store.API.Interfaces;
 using Store.API.Services;
 using AutoMapper;
+using Store.API.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,7 @@ builder.Services.AddAutoMapper(typeof(Program)); // Add this line to register Au
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IDiscountService, DiscountService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>(); // Example implementation registration
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

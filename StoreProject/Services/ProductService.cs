@@ -1,140 +1,64 @@
 ﻿using AutoMapper;
-using Microsoft.EntityFrameworkCore;
-using Store.API.Data;
 using Store.API.DTOs;
 using Store.API.Entities;
 using Store.API.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Store.API.Services
 {
-    // ProductService.cs
     public class ProductService : IProductService
     {
-        private readonly StoreDbContext _context;
+        private readonly IProductRepository _productRepository;
         private readonly IMapper _mapper;
-        private IProductRepository object1;
-        private IMapper object2;
 
-        public ProductService(StoreDbContext context, IMapper mapper)
+        public ProductService(IProductRepository productRepository, IMapper mapper)
         {
-            _context = context;
+            _productRepository = productRepository;
             _mapper = mapper;
         }
 
-
-
         public async Task<List<ProductDto>> GetAllProductsAsync()
         {
-            if (_context == null)
-            {
-                throw new InvalidOperationException("_context is null");
-            }
-
-            var products = await _context.Products
-                .Include(p => p.ProductCategories)
-                    .ThenInclude(pc => pc.Category)
-                .ToListAsync();
-
-            if (products == null)
-            {
-                throw new InvalidOperationException("products is null");
-            }
-
+            var products = await _productRepository.GetAllProductsAsync();
             return _mapper.Map<List<ProductDto>>(products);
         }
 
-
         public async Task<ProductDto> GetProductByIdAsync(int id)
         {
-            var product = await _context.Products.Include(p => p.ProductCategories).ThenInclude(pc => pc.Category).FirstOrDefaultAsync(p => p.Id == id);
+            var product = await _productRepository.GetProductByIdAsync(id);
             return product == null ? null : _mapper.Map<ProductDto>(product);
         }
 
         public async Task<ProductDto> CreateProductAsync(ProductDto productDto)
         {
             var product = _mapper.Map<Product>(productDto);
-            foreach (var categoryId in productDto.CategoryIds)
-            {
-                var category = await _context.Categories.FindAsync(categoryId);
-                if (category != null)
-                {
-                    product.ProductCategories.Add(new ProductCategory { Product = product, Category = category });
-                }
-            }
-            _context.Products.Add(product);
-            await _context.SaveChangesAsync();
-            return _mapper.Map<ProductDto>(product);
+            var createdProduct = await _productRepository.CreateProductAsync(product);
+            return _mapper.Map<ProductDto>(createdProduct);
         }
 
         public async Task UpdateProductAsync(ProductDto productDto)
         {
-            var product = await _context.Products.Include(p => p.ProductCategories).FirstOrDefaultAsync(p => p.Id == productDto.Id);
-            if (product != null)
-            {
-                _mapper.Map(productDto, product);
-
-                // Update categories
-                product.ProductCategories.Clear();
-                foreach (var categoryId in productDto.CategoryIds)
-                {
-                    var category = await _context.Categories.FindAsync(categoryId);
-                    if (category != null)
-                    {
-                        product.ProductCategories.Add(new ProductCategory { Product = product, Category = category });
-                    }
-                }
-
-                await _context.SaveChangesAsync();
-            }
+            var product = _mapper.Map<Product>(productDto);
+            await _productRepository.UpdateProductAsync(product);
         }
 
         public async Task DeleteProductAsync(int id)
         {
-            var product = await _context.Products.FindAsync(id);
-            if (product != null)
-            {
-                _context.Products.Remove(product);
-                await _context.SaveChangesAsync();
-            }
+            await _productRepository.DeleteProductAsync(id);
         }
 
         public async Task ImportStockAsync(List<ProductDto> products)
         {
-            foreach (var productDto in products)
-            {
-                var product = await _context.Products.Include(p => p.ProductCategories).FirstOrDefaultAsync(p => p.Name == productDto.Name);
-                if (product == null)
-                {
-                    product = _mapper.Map<Product>(productDto);
-                    foreach (var categoryId in productDto.CategoryIds)
-                    {
-                        var category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == categoryId);
-                        if (category == null)
-                        {
-                            category = _mapper.Map<Category>(new CategoryDto { Id = categoryId });
-                            _context.Categories.Add(category);
-                        }
-                        product.ProductCategories.Add(new ProductCategory { Product = product, Category = category });
-                    }
-                    _context.Products.Add(product);
-                }
-                else
-                {
-                    product.StockQuantity += productDto.StockQuantity;
-                }
-            }
-
-            await _context.SaveChangesAsync();
+            var mappedProducts = _mapper.Map<List<Product>>(products);
+            await _productRepository.ImportStockAsync(mappedProducts);
         }
 
         public async Task<decimal> CalculateDiscountAsync(List<int> productIds)
         {
-            var products = await _context.Products.Include(p => p.ProductCategories).ThenInclude(pc => pc.Category).Where(p => productIds.Contains(p.Id)).ToListAsync();
+            var products = await _productRepository.GetProductsByIdsAsync(productIds);
             if (products.Count != productIds.Count)
             {
                 throw new Exception("Invalid product IDs or insufficient stock.");
@@ -154,5 +78,4 @@ namespace Store.API.Services
             return totalDiscount;
         }
     }
-
 }
